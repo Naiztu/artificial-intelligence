@@ -166,3 +166,4 @@ Scripts
 share
 pyvenv.cfg
 augmented
+*.h5
