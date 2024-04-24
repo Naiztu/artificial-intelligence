@@ -3,11 +3,9 @@ import librosa
 import numpy as np
 import pandas as pd
 import os
-import csv
-import time
 
 # %%
-model_name = 'model-multi'
+model_name = 'model'
 
 # %%
 test = pd.DataFrame({}, columns=[ 'tempo', 'beats', 'chroma_stft', 'rmse',
@@ -52,6 +50,7 @@ np.argmax(predicted, axis=1)
 
 # %%
 mapper = {0:'blues', 1:'classical', 2:'country', 3:'disco', 4:'hiphop', 5:'jazz', 6:'metal', 7:'pop', 8:'reggae', 9:'rock'}
+mapper = {0:'pop', 1:'classical'}
 mapped = [mapper[i] for i in np.argmax(predicted, axis=1)]
 print(mapped)
 
