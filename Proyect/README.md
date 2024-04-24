@@ -44,6 +44,7 @@ En el split del dataset, se reservo el ocho porciento para la validación del mo
 
 Para la implementación del modelo,  revise los siguientes papers:
  - [Music Recommender System Based on Genre using Convolutional Recurrent Neural Networks](https://0-www-sciencedirect-com.biblioteca-ils.tec.mx/science/article/pii/S1877050919310646)
+ **************apa**************
 
  - [Music Artist Classification with Convolutional
 Recurrent Neural Networks](https://arxiv.org/pdf/1901.04555.pdf)
@@ -57,6 +58,8 @@ Con lo revisado se opto pot la siguiente estructura:
 | Dense | (None, 32) |
 | Dense | (None, 16) |
 | Dense | (None, 2) |
+
+********Ser mas especifico donde mensiona el paper por que usar********
 
 
 
@@ -86,3 +89,7 @@ Obteniendo el tambien las tasas de verdaderos positivos y de falsos:
 |Classical|0.9130|0.0588|
 
 
+****ser mas presisio************
+
+*******train y test, medidas, con graficas, mas con detalle, donde sale, comparaciones e interpretaciones********
+*******y para el segundo modelo. Diagnosticar********
