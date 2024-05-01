@@ -167,3 +167,4 @@ share
 pyvenv.cfg
 augmented
 *.h5
+*.wav

@@ -43,10 +43,9 @@ En el split del dataset, se reservo el ocho porciento para la validación del mo
 ## Implementación del modelo
 
 Para la implementación del modelo,  revise los siguientes papers:
- - [Music Recommender System Based on Genre using Convolutional Recurrent Neural Networks](https://0-www-sciencedirect-com.biblioteca-ils.tec.mx/science/article/pii/S1877050919310646)
- **************apa**************
+- [Music Recommender System Based on Genre using Convolutional Recurrent Neural Networks](https://0-www-sciencedirect-com.biblioteca-ils.tec.mx/science/article/pii/S1877050919310646)
 
- - [Music Artist Classification with Convolutional
+- [Music Artist Classification with Convolutional
 Recurrent Neural Networks](https://arxiv.org/pdf/1901.04555.pdf)
 
 Con lo revisado se opto pot la siguiente estructura:
@@ -93,3 +92,17 @@ Obteniendo el tambien las tasas de verdaderos positivos y de falsos:
 
 *******train y test, medidas, con graficas, mas con detalle, donde sale, comparaciones e interpretaciones********
 *******y para el segundo modelo. Diagnosticar********
+
+## Referencias
+- Adiyansjah, Alexander A S Gunawan, Derwin Suhartono,
+Music Recommender System Based on Genre using Convolutional Recurrent Neural Networks,
+Procedia Computer Science,
+Volume 157,
+2019,
+Pages 99-109,
+ISSN 1877-0509,
+https://0-www-sciencedirect-com.biblioteca-ils.tec.mx/science/article/pii/S1877050919310646
+
+- Zain Nasrullah, Yue Zhao, Music Artist Classification with Convolutional
+Recurrent Neural Networks,
+https://arxiv.org/pdf/1901.04555.pdf
