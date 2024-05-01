@@ -1,0 +1,12 @@
+accuracy : 0.9652777910232544
+loss : 0.04887213185429573
+val_accuracy : 1.0
+val_loss : 0.0013587824068963528
+
+HIPERPARAMETERS
+
+units_lstm : 52
+learning_rate : 0.0023916625587450248
+layers_number_lstm : 1
+layers_number_dense : 1
+units : 134

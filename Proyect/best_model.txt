@@ -1,4 +1,12 @@
-accuracy : 0.4819444417953491
-loss : 1.4157155752182007
-val_accuracy : 0.550000011920929
-val_loss : 1.3740483522415161
+accuracy : 0.5
+loss : 8.05904769897461
+val_accuracy : 0.5
+val_loss : 8.05904769897461
+
+HIPERPARAMETERS
+
+units_lstm : 46
+learning_rate : 0.0012359379421354889
+layers_number_lstm : 0
+layers_number_dense : 1
+units : 368
